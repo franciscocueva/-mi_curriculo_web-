@@ -1,0 +1,73 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente de fondo */
+    color: #fff;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    color: #333;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 700px;
+    margin: 80px auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #6a11cb;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Información personal */
+p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Título de habilidades */
+h2 {
+    font-size: 2rem;
+    color: #2575fc;
+    margin-bottom: 15px;
+}
+
+/* Lista de habilidades */
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de cada habilidad */
+.skills li {
+    background-color: #6a11cb;
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover sobre las habilidades */
+.skills li:hover {
+    background-color: #2575fc;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+}
